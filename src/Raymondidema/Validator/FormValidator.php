@@ -32,7 +32,7 @@ abstract class FormValidator {
         $this->validation = $this->validator->make($formData, $this->getValidationRules());
 
         if($this->validation->fails())
-            throw new FormValidationException('Validation failed', $this->getValidationErrors());
+            throw new FormValidatorException('Validation failed', $this->getValidationErrors());
         return true;
     }
 
