@@ -1,0 +1,20 @@
+{
+    "name": "raymondidema/validator",
+    "description": "Yet Another Form Validator",
+    "authors": [
+        {
+            "name": "Raymond Idema",
+            "email": "raymond@design-code.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raymondidema\\Validator": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
