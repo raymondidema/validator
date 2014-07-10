@@ -1,6 +1,7 @@
 {
     "name": "raymondidema/validator",
     "description": "Yet Another Form Validator",
+    "license": "MIT",
     "authors": [
         {
             "name": "Raymond Idema",
