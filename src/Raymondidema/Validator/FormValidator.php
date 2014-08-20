@@ -24,7 +24,7 @@ abstract class FormValidator {
     /**
      * @param array $formData
      *
-     * @throws FormValidationException
+     * @throws FormValidatorException
      * @return bool
      */
     public function validate(array $formData)
