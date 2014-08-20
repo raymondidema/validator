@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Raymondidema\\Validator\\": "src/raymondidema/validator"
+            "Raymondidema\\Validator\\": "src/Raymondidema/Validator"
         }
     },
     "minimum-stability": "stable"
